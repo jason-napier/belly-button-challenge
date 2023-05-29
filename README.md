@@ -12,3 +12,6 @@ README
 	-This README explaining the project
 samples.json
 	-A .json file with a copy of the data loaded from the URL
+
+Acknowledgements:
+Special thanks to Lucas Ludwig and Kourt Bailey for collaboration.
