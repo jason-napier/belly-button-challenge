@@ -1,17 +1,19 @@
-# belly-button-challenge
+# Belly Button Biodiversity Dashboard
 Repository for Module 14 Challenge
 
-This program uses D3 library to examine data about belly button diversity. A dropdown menu is used so that the user can select a test subject id. The subject’s demographic information is displayed. A bar chart will display the top ten OTUs found on subject. A bubble chart displays the sample values for each OTU.
+## Overview
 
-Files:
-Static/js/app.js:
-	-A JavaScript file which loads the data from a URL and produces the displayed dashboard.
-index.html
-	-A html file used to open the dashboard in the browser
-README
-	-This README explaining the project
-samples.json
-	-A .json file with a copy of the data loaded from the URL
+This interactive dashboard explores the Belly Button Biodiversity dataset, which catalogs the microbes colonizing human navels. The project showcases the microbial species (operational taxonomic units, or OTUs) present in more than 70% of people, highlighting the diversity of bacteria living in human belly buttons. This dataset provides a fascinating glimpse into the microscopic world in our midst.
 
-Acknowledgements:
+## Repository Structure
+
+- `index.html`: The HTML file for the dashboard.
+- `samples.json`: The dataset file containing the OTU data.
+- `static/`: 
+  - `app.js`: JavaScript file for handling the dashboard logic.
+
+## Acknowledgements
 Special thanks to Lucas Ludwig and Kourt Bailey for collaboration.
+
+## References
+Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/Links to an external site.
